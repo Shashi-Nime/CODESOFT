@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="imgHover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Porifolio</title>
+  <script>
+      function validateForm() {
+        let x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+      }
+      </script>
+
+<style>
+  .custom-progress-bar {
+      height: 20px; /* Adjust the height as needed */
+    }
+    .custom-progress-container {
+      width: 60%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the progress bar */
+      /*margin-left: 10px;*/
+    }
+    .custom-progress-bar span {
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-weight: bold;
+    }
+
+    
+  </style>
+
+   </head>
+<body id="home">
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="https://youtu.be/DgYt9Yt_sl0" target="-blank">Porifolio</a>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">AboutMe</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">ContactMe</a></li>
+      </ul>
+    </div>
+ </nav>
+  <div class="img">
+  <div class="flex">
+  
+    <img src="images/bgimage.png" width="40%" height="100%" style="margin-top: 15%; margin-left: 50px;">
+ 
+  <div class="left">
+    <div class="title" style="font-weight: 100"><strong style="color:rgb(83, 193, 207)">Hai</strong>, I am </div>
+    <div class="sub_title"  >Shashika Nimesha</div>
+    <div class="title" style="color: rgb(255, 255, 255);  font-weight: 100;">Web Developer & Web Designer</div>
+    <div class="tit"><a  href="https://www.linkedin.com/in/shashika-bulathwaththa-169646309/" target="_blank"><img src="images/lo7.png" alt="linkdin logo" width="40px"  height="40px"></a></div>
+    <div class="tit"><a  href="https://github.com/Shashi-Nime" target="_blank"><img src="images/lo6.png" alt="github logo" width="40px"  height="40px"></a></div>
+  <div class="tit"><a  href="https://www.gmail.com" target="_blank" style="color: blue;"><img src="images/mail.png" alt="email logo" width="40px"  height="40px"></a></div>
+ <br> 
+ <button class="but" onclick="showMessage()"><span>Click me</span></button>
+</div>
+</div>
+</div>
+
+
+  <div  class="main" id="about">
+   <br><br>
+    <div class="h1">
+    <h1 style="font-weight: 800; text-align: center;">About<strong style="color:rgb(32, 56, 194)">Me</strong></h1>
+    <p style="text-align: center;">Hi I'm Help To Your <strong style="color:rgb(34, 177, 202)">Next Project!</strong> </p>
+    </div>
+    <!--<a  href="#skills" target="_blank"><img src="u.png" alt="arrow" width="30px"  height="30px"></a>-->
+    
+    <div class="mydiv">
+     <img src="images/my1.png" width="35%" height="60%" style="margin-top: 13%; margin-left: 30px;">
+   
+  <div>
+<p class="p1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 40px;">E</span>nthusiastic final-year Higher National 
+  Diploma in IT student at SLIATE with a passion for technology and problem-solving. Solid foundation in programming and 
+  software development. Actively engaged in staying updated with  IT trends. Effective team player with leadership experience from 
+  coding competitions and workshops, Eager in contribute and learn internships or entry- level roles, driven by  continuous growth and excellence.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 40px;">A</span>rmed with a solid
+foundation in Information Technology, I
+am enthusiastic about applying
+theoretical knowledge to real-world
+scenarios. Proficient in key areas such as
+programming languages, database
+management, and network
+administration, I am eager to dive into
+hands-on experiences to further refine
+my skills. With a strong work ethic,
+adaptability, and a thirst for learning, I
+am ready to contribute effectively to
+adynamic team and make meaningful
+contributions during my internship tenure.<br>
+
+</p>
+
+
+    <table class="table">
+
+      
+      <tr>
+     <th class="th">Full Name:</th> 
+        <td class="td">Shashika Nimesha Bulathwaththa.</td>
+      </tr>
+   
+
+    
+      <tr>
+        <th class="th">Date Of Birth:</th>
+        <td class="td">2000.03.29</td>
+      </tr>
+    
+      <tr>
+        <th class="th">Home Town:</th>
+        <td class="td">Matale,SriLanka</td>
+      </tr>
+    
+      <tr>
+        <th class="th">Email Address:&nbsp;&nbsp;</th>
+        <td class="td"><a  href="https://www.gmail.com" target="_blank">shashinime393@gmail.com</a></td>
+      </tr>
+    
+      <tr>
+        <th class="th">Education:</th>
+        <td class="td">Fllowing Higher National Diploma in<br> Information Technology in SLIATE.</td>
+      </tr>
+
+      <tr>
+        
+        <td ><button class="butt"><a href="MyCv.pdf" target="_blank" download="cv.pdf" ><span>Download cv</span></a></button></td>
+      </tr>
+
+    </table>
+  </div>
+      </div>
+    </div>
+ 
+
+
+  <div class="main" id="skills">
+    <br><br>
+    <div class="h1">
+    <h1 style="font-weight: 800; text-align: center;" >My<strong style="color:rgb(32, 56, 194)">Skills</strong></h1>
+    </div>
+    
+   
+    <!--<a  href="#projects" target="_blank"><img src="u.png" alt="arrow" width="30px"  height="30px"></a>-->
+    
+
+      
+      <div class="w3-container">
+       
+        <div class="b">
+        <h4>Here is My<strong> Skills</strong> Represent My Expretise.</h4>
+      </div><br>
+        <!--<div class="w3-light-grey w3-round">
+          <div class="w3-container w3-blue w3-round" style="width:25%">25%</div>
+        </div><br>
+      
+        <div class="w3-light-grey w3-round-large">
+          <div class="w3-container w3-blue w3-round-large" style="width:25%">25%</div>
+        </div><br>
+      
+        <div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-blue w3-round-xlarge" style="width:25%">25%</div>
+        </div>
+      </div>-->
+      <span class="s">HTML</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width:90%">
+          <span>90%</span>
+        </div>
+      </div>
+      <br>
+      <span class="s">CSS</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width:90%">
+          <span>90%</span>
+        </div>
+      </div>
+<br>
+      <span class="s">JavaScript</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width:75%">
+          <span>75%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">Bootstrap</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 80%">
+          <span>80%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">PHP</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 70%">
+          <span>70%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">Laravel</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width:90%">
+          <span>90%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">MySQL</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 80%">
+          <span>80%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">Canva</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 90%">
+          <span>90%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">Photoshop</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 70%">
+          <span>70%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">Figma</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 80%">
+          <span>80%</span>
+        </div>
+      </div>
+
+      <br>
+
+      <span class="s">CorelDraw</span>
+      <div class="w3-grey w3-round-xlarge custom-progress-container">
+        <div class="w3-container w3-blue w3-round custom-progress-bar" style="width: 70%">
+          <span>70%</span>
+        </div>
+      </div>
+
+      <br>
+
+  <div  class="main" id="projects">
+    <br><BR>
+      <div class="h1">
+    <h1 style="font-weight:  800; text-align: center;">My<strong style="color:rgb(32, 56, 194)">Projects</strong></h1>
+      </div>
+  
+    
+   
+    <table style=" margin-left: 100px; margin-top: 40px;">
+      <div class="row">
+<tr>
+  <td>
+        <div class="column">
+          <div class="con">
+          <img src="images/123.JPG" alt="Snow" widht="50px" height="250px" style="border-radius: 30px;">
+          <div class="overlay">
+            <div class="text">Portfolio WebSite</div>
+          </div>
+        </div>
+        </div>
+      </td>
+      
+      <td>
+        <div class="column">
+          <div class="con">
+          <img src="images/21.jpg" alt="Forest" widht="50px" height="250px" style="border-radius: 30px;">
+          <div class="overlay">
+            <div class="text">Gift WebSite</div>
+          </div>
+        </div>
+      </div></td></tr>
+
+      
+    <tr>
+    <td>
+      <div class="column">
+        <div class="con">
+           <img src="images/im20.JPG" alt="Mountains" widht="50px"  height="250px" style="border-radius: 30px;">
+           <div class="overlay">
+            <div class="text">Simple Calculator System</div>
+          </div>
+      </div>
+    </div></td>
+
+
+    <td>
+      <div class="column">
+        <div class="con">
+        <img src="images/im6.JPG" alt="Snow" widht="50px" height="250px" style="border-radius: 30px;">
+        <div class="overlay">
+          <div class="text">Photograpy WebSite</div>
+        </div>
+      </div>
+      </div></td></tr>
+
+    
+      <tr>
+    <td>
+      <div class="column">
+        <div class="con">
+        <img src="images/im9.JPG" alt="Forest" widht="50px" height="250px" style="border-radius: 30px;">
+        <div class="overlay">
+          <div class="text">E Commerce Website in Laravel</div>
+        </div>
+      </div>
+    </div></td>
+
+  <td>
+<div class="column">
+      <div class="con">
+         <img src="images/im10.JPG" alt="Mountains" widht="50px" height="250px" style="border-radius: 30px;">
+         <div class="overlay">
+          <div class="text">Rose Garden</div>
+        </div>
+    </div>
+  </div></td></tr>
+
+
+  <tr>
+  <td>
+    <div class="column">
+      <div class="con">
+      <img src="images/im3.JPG" alt="Snow" widht="50px" height="250px" style="border-radius: 30px;">
+      <div class="overlay">
+        <div class="text">E Commerce Website</div>
+      </div>
+    </div>
+    </div></td>
+
+  <td>
+    <div class="column">
+      <div class="con">
+      <img src="images/im12.JPG" alt="Forest" widht="50px" height="250px" style="border-radius: 30px;">
+      <div class="overlay">
+        <div class="text">Login Form</div>
+      </div>
+    </div>
+  </div></td>
+</tr>
+
+</div>
+</table>
+</div>
+
+
+
+<div  class="main" id="contact">
+              <br><br>
+              <div class="h1">
+              <h1 style="font-weight:  800; text-align: center;">Contact<strong style="color:rgb(32, 56, 194)">Me</strong></h1>
+              </div>
+              
+              
+              <br><br><br>
+              
+            <table>
+               <tr>
+               <th rowspan="2"><div class="img1"><a href="https://www.google.com/maps/@6.8042767,79.908075,13z?entry=ttu" target="-blank" style="font-weight: 100"><img src="images/lo.png" ></a></div></th>
+                <th><div class="h2"><h2 style="font-weight: 100; font-size: 18px">Location</h2></div></th>
+                </tr>
+                <tr>
+                <th ><a href="https://www.google.com/maps/@6.8042767,79.908075,13z?entry=ttu" target="-blank" style="font-weight: 100">23/1 Main Street,Panvila,Kandy</a></th>
+                </tr>
+                </tr>
+                <tr>
+                  <th rowspan="2"><div class="img1"><a href="https://www.gmail.com" target="-blank" style="font-weight: 100"><img src="images/em.png" ></a></div></th>
+                  <th><div class="h2"><h2 style="font-weight: 100; font-size: 18px">Email</h2></div></th>
+                </tr>
+               <tr>
+                <th><a href="https://www.gmail.com" target="-blank" style="font-weight: 100">shashinime393@gmail.com</a></th>
+               </tr>
+                <tr>
+                  <th rowspan="2"><div class="img1"><img src="images/pho.png"></div></th>
+                  <th><div class="h2"><h2 style="font-weight: 100; font-size: 18px">Phone</h2></div></th>
+                </tr>
+                <tr>
+                  <th><div style="font-weight: 100">0773450984</div></th>
+                </tr>
+            </table>
+           
+            <div class="icon">
+              <a  href="https://www.linkedin.com/in/shashika-bulathwaththa-169646309/" target="_blank"><img src="images/lo7.png" alt="linkdin logo"></a>
+              <a  href="https://github.com/Shashi-Nime" target="_blank"><img src="images/lo6.png" alt="github logo" ></a></div>
+              <a  href="https://www.gmail.com" target="_blank" ><img src="images/mail.png" alt="email logo"></a>
+              
+             </div>
+
+     </div>
+     <footer>
+      <p>&copy; 2024 Porifolio<br>
+        All rights reserved</p>
+    </footer>
+    <!-- JavaScript -->
+  <script>
+    function showMessage() {
+      alert('Hello! Welcome To The My Porifolio');
+    }
+  </script>
+  </body>
+</html>
